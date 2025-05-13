@@ -13,16 +13,27 @@
 # for i in range(numero):
 #     n1 = int(input("Informe o numero: "))
 
-menor = 9999999999    
-maior = -999999999
-soma = 0
-numero = int(input("Informe a quantidade de números que você quer digitar: "))
+# menor = 9999999999    
+# maior = -999999999
+# soma = 0
+# numero = int(input("Informe a quantidade de números que você quer digitar: "))
 
-for i in range(numero):
-    n1 = int(input("Informe o número: "))
-    soma += n1
+# for i in range(numero):
+#     n1 = int(input("Informe o número: "))
+#     soma += n1
 
-    if i <= menor:
-        menor  = 1
+#     if i <= menor:
+#         menor  = 1
     
-    
+
+
+
+
+my_list = [[0, 1, 2, 3] for i in range(2)]
+print(my_list[2:0])
+ 
+
+
+ 
+
+ 
